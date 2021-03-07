@@ -9,8 +9,12 @@ The purpose of this analysis was to help Maria identify whether academic dishone
 - How is the district summary affected?
 - The district summary is very efected by us removing the ninth grade scores. We removed 461 students out of 39,170 students.
 
+![district_summary](https://github.com/padilladaniela/School_District_Analysis/blob/main/school_district_summary.png)
+
 - How is the school summary affected?
 - The school summary is also not very affected by the changes.
+
+![school_summary](https://github.com/padilladaniela/School_District_Analysis/blob/main/School_summary.png)
 
 - Prior to replacing the ninth grader's math and reading scores for THS, the school was doing relatevely low with as 65% overall passing percentage. After our changes, their overall passing percentange increaded to 91%.
 
@@ -27,8 +31,8 @@ The purpose of this analysis was to help Maria identify whether academic dishone
 ![math and reading scores by grade](https://github.com/padilladaniela/School_District_Analysis/blob/main/reading_scores_per_grade.png)
 
 - Scores by school spending
-- Scores by school size
 
+![school_spending](https://github.com/padilladaniela/School_District_Analysis/blob/main/before_after_spending.png- Scores by school size)
 
 - Scores by school type
 
