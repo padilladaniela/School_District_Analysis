@@ -7,8 +7,13 @@ The purpose of this analysis was to help Maria identify whether academic dishone
 ## Results
 
 - How is the district summary affected?
+- The district summary is very efected by us removing the ninth grade scores. We removed 461 students out of 39,170 students.
+
 - How is the school summary affected?
+- The school summary is also not very affected by the changes.
+
 - How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
+- Prior to replacing the ninth grader's math and reading scores for THS, the school was doing relatevely low with as 65% overall passing percentage. After our changes, their overall passing percentange increaded to 91%.
 
 #*Step 3. Refactor the code in Step 2 to replace the math scores with NaN.**
 
