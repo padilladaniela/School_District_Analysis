@@ -32,7 +32,11 @@ The purpose of this analysis was to help Maria identify whether academic dishone
 
 - Scores by school spending
 
-![school_spending](https://github.com/padilladaniela/School_District_Analysis/blob/main/before_after_spending.png- Scores by school size)
+![school_spending](https://github.com/padilladaniela/School_District_Analysis/blob/main/before_after_spending.png)
+
+- Scores by school size)
+
+![school_size](https://github.com/padilladaniela/School_District_Analysis/blob/main/before_after_school_size.png)
 
 - Scores by school type
 
