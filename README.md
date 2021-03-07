@@ -7,7 +7,7 @@ The purpose of this analysis was to help Maria identify whether academic dishone
 ## Results
 
 - How is the district summary affected?
-- The district summary is very efected by us removing the ninth grade scores. We removed 461 students out of 39,170 students.
+- The district summary is not very efected by us removing the ninth grade scores. We removed 461 students out of 39,170 students.
 
 ![district_summary](https://github.com/padilladaniela/School_District_Analysis/blob/main/school_district_summary.png)
 
@@ -48,3 +48,4 @@ The purpose of this analysis was to help Maria identify whether academic dishone
 ## Summary: Summarize four major changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
 
 The four major changes in the updated school analysis 
+The differences in all of our DataFrames were for less than 1%.
