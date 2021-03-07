@@ -10,11 +10,11 @@ The purpose of this analysis was to help Maria identify whether academic dishone
 - How is the school summary affected?
 - How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 
-**Step 3. Refactor the code in Step 2 to replace the math scores with NaN.
+#*Step 3. Refactor the code in Step 2 to replace the math scores with NaN.**
 
-*student_data_df.loc[(student_data_df["school_name"] == "Thomas High School") & (student_data_df["grade"] == "9th"), ["reading_score"]] = np.nan
+-*student_data_df.loc[(student_data_df["school_name"] == "Thomas High School") & (student_data_df["grade"] == "9th"), ["reading_score"]] = np.nan*
 
-*student_data_df.loc[(student_data_df["school_name"] == "Thomas High School") & (student_data_df["grade"] == "9th"), ["math_score"]] = np.nan
+-*student_data_df.loc[(student_data_df["school_name"] == "Thomas High School") & (student_data_df["grade"] == "9th"), ["math_score"]] = np.nan*
 
 - How does replacing the ninth-grade scores affect the following:
 - Math and reading scores by grade
