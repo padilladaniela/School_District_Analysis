@@ -6,26 +6,24 @@ The purpose of this analysis was to help Maria identify whether academic dishone
 
 ## Results
 
-- How is the district summary affected?
 - The district summary is not very efected by us removing the ninth grade scores. We removed 461 students out of 39,170 students.
 
 ![district_summary](https://github.com/padilladaniela/School_District_Analysis/blob/main/school_district_summary.png)
 
-- How is the school summary affected?
 - The school summary is also not very affected by the changes.
 
 ![school_summary](https://github.com/padilladaniela/School_District_Analysis/blob/main/School_summary.png)
 
 - Prior to replacing the ninth grader's math and reading scores for THS, the school was doing relatevely low with as 65% overall passing percentage. After our changes, their overall passing percentange increaded to 91%.
 
-
-#*Step 3. Refactor the code in Step 2 to replace the math scores with NaN.**
+*Step 3. Refactor the code in Step 2 to replace the math scores with NaN.**
 
 -*student_data_df.loc[(student_data_df["school_name"] == "Thomas High School") & (student_data_df["grade"] == "9th"), ["reading_score"]] = np.nan*
 
 -*student_data_df.loc[(student_data_df["school_name"] == "Thomas High School") & (student_data_df["grade"] == "9th"), ["math_score"]] = np.nan*
 
 - How does replacing the ninth-grade scores affect the following:
+
 - Math and reading scores by grade
 
 ![math and reading scores by grade](https://github.com/padilladaniela/School_District_Analysis/blob/main/reading_scores_per_grade.png)
@@ -45,7 +43,11 @@ The purpose of this analysis was to help Maria identify whether academic dishone
 ![Updated_Reading](https://github.com/padilladaniela/School_District_Analysis/blob/main/updated_school_type.png)
 
 
-## Summary: Summarize four major changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+## Summary
 
-The four major changes in the updated school analysis 
-The differences in all of our DataFrames were for less than 1%.
+The four major changes in the updated school analysis:
+- The differences in all of our DataFrames were for less than 1%.
+- We were able to identify differences in the actual data and how much it affected the overall results.
+- By removing the ninth grade math and reading, we are able to show Maria how this data changes.
+- After removing the NaNs, we were able to learn how to refactor data to pull information as wanted using pandas and numpy. Maria can possibly use this code and rerun with any scores she would like to remove or update.
+
