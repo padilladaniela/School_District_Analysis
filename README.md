@@ -6,11 +6,11 @@ The purpose of this analysis was to help Maria identify whether academic dishone
 
 ## Results
 
-- The district summary is not very efected by us removing the ninth grade scores. We removed 461 students out of 39,170 students.
+- The district summary is effected by us removing the ninth grade scores. We removed 461 students out of 39,170 students. The scores before and after the update greatly differentiate.
 
 ![district_summary](https://github.com/padilladaniela/School_District_Analysis/blob/main/school_district_summary.png)
 
-- The school summary is also not very affected by the changes.
+- The school summary is affected as well. The percentages changed from our initial scores to the updated.
 
 ![school_summary](https://github.com/padilladaniela/School_District_Analysis/blob/main/School_summary.png)
 
@@ -46,8 +46,8 @@ The purpose of this analysis was to help Maria identify whether academic dishone
 ## Summary
 
 The four major changes in the updated school analysis:
-- The differences in all of our DataFrames were for less than 1%.
+- The differences in all of our DataFrames was minimal.
 - We were able to identify differences in the actual data and how much it affected the overall results.
-- By removing the ninth grade math and reading, we are able to show Maria how this data changes.
+- By removing the ninth grade math and reading, we are able to show Maria how this data changes. The distrcit summary was affected the most from our changes.
 - After removing the NaNs, we were able to learn how to refactor data to pull information as wanted using pandas and numpy. Maria can possibly use this code and rerun with any scores she would like to remove or update.
 
